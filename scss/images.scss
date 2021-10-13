@@ -1,0 +1,22 @@
+$img-1: url(https://i.imgur.com/21O4KD6.jpeg);
+$img-2: url(https://i.imgur.com/cOon8bb.jpeg);
+$img-3: url(https://i.imgur.com/rcWigL5.jpeg);
+$img-4: url(https://i.imgur.com/Bw53vfI.jpeg);
+$img-5: url(https://imgur.com/1Bd1A2a.jpeg);
+$img-6: url(https://imgur.com/And440L.jpeg);
+$img-7: url(https://imgur.com/B5UwzAr.jpeg);
+
+.img1 {
+  background: url(https://imgur.com/1Bd1A2a.jpeg);
+  @include img-format2;
+}
+
+.img2 {
+  background: url(https://imgur.com/And440L.jpeg);
+  @include img-format2;
+}
+
+.img3 {
+  background: url(https://imgur.com/B5UwzAr.jpeg);
+  @include img-format2;
+}
